@@ -57,7 +57,6 @@
         </div>
       </div>
     </div>
-
     <div class="md-flex rounded shadow-lg bg-white p-6">
       <div class="px-6 py-2">
         <vs-avatar size="70" badge badge-color="success" history history-gradient circle class="px-1 py-1">
