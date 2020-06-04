@@ -1,22 +1,25 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <HelloWorld msg=""/>
+    <card-user/>
   </div>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import CardUser from './components/CardUser'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HelloWorld,
+    CardUser
   }
 }
 </script>
 
 <style>
+  @import "https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css";
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
